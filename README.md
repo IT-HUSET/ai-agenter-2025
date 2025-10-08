@@ -32,6 +32,8 @@
 
 1. Install dependencies:
 ```bash
+# Install uv (https://docs.astral.sh/uv/)
+
 uv sync
 ```
 
