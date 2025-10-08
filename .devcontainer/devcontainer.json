@@ -107,5 +107,5 @@
     "POWERLEVEL9K_DISABLE_GITSTATUS": "true"
   },
 
-  "postCreateCommand": "sudo chmod 755 ./setup-devcontainer.sh && ./setup-devcontainer.sh"
+  "postCreateCommand": "dos2unix ./setup-devcontainer.sh 2>/dev/null || sed -i 's/\\r$//' ./setup-devcontainer.sh && sudo chmod 755 ./setup-devcontainer.sh && ./setup-devcontainer.sh"
 }
