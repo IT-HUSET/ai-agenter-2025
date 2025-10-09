@@ -34,6 +34,7 @@
 ```bash
 # Install uv (https://docs.astral.sh/uv/)
 
+# Run uv sync to install dependencies
 uv sync
 ```
 
@@ -62,6 +63,8 @@ uv run script.py         # For Python scripts
     (_**See below for screenshots**_)
 
 
+## Jupyter Notebooks in GitHub Codespaces
+There is a bug in the latest Microsoft Jupyter extension that prevents Jupyter Notebooks from working properly in Codespaces. To work around this, **revert it back to version 2025.8.x**
 
 ## Jupyter Notebooks Colab links
 
