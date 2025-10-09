@@ -1,2 +1,6 @@
-Please create a simple python CLI script (using uv run) for generating an image using the Gemini Nano Banana model, a.k.a. 2.5 Flash Image (https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-image). The gemeini API key is in my .env file - use the dotenv package. 
+Please create a simple python CLI script (using uv run) for generating an image using the Gemini Nano Banana model, a.k.a. 2.5 Flash Image (https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-image). 
+The gemeini API key is in my .env file - use the dotenv package. 
 Place the script under the exercises/banana folder.
+
+## Additional requirements
+Please support specifying the prompt as an agrument to the script

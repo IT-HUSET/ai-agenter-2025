@@ -10,6 +10,13 @@
 ...finns [här](https://docs.google.com/document/d/1GU-AHlKJ1WrakcmzZdqxsi9HrmI2nJY15bt23B0TWC0/edit?usp=drive_link) för inklistring på läpligt ställe (`.env`-fil etc)`. 
 
 
+## Länkar
+- [AGENTIC-CODING-TIPS.md](AGENTIC-CODING-TIPS.md)
+- [GitHub Spec kit](https://github.com/github/spec-kit)
+- [Claude Code docs](https://docs.claude.com/en/docs/claude-code/overview)
+- [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)
+
+
 ## Google Colab - For Jupyter Notebooks Exercises
 
 1. **Use Google Colab (requires a Google account)**:
@@ -63,8 +70,40 @@ uv run script.py         # For Python scripts
     (_**See below for screenshots**_)
 
 
-## Länkar
-- GitHub Spec kit: https://github.com/github/spec-kit
+## Creating a Private Fork (After Cloning)
+
+If you've already cloned this repository and want to convert it to a private fork to save your work:
+
+1. **Update your local repository's remote**:
+   ```bash
+   # Check your current remote
+   git remote -v
+
+   # Add your new private repo as a remote (or rename the existing origin)
+   git remote add private https://github.com/YOUR_USERNAME/ai-agenter-2025-private.git
+
+   # OR rename the existing origin to upstream and add your private repo as origin
+   git remote rename origin upstream
+   git remote add origin https://github.com/YOUR_USERNAME/ai-agenter-2025-private.git
+   ```
+
+2. **Push your code to the private repository**:
+   ```bash
+   # Push all branches and tags to your private repo
+   git push -u origin main
+   git push origin --all
+   git push origin --tags
+   ```
+
+3. **Keep your private fork updated** (optional):
+   ```bash
+   # If you renamed origin to upstream, you can pull updates from the original repo
+   git fetch upstream
+   git merge upstream/main
+   git push origin main
+   ```
+
+**Note**: GitHub doesn't allow traditional forking of public repositories into private ones. This method creates an independent private repository with the same history.
 
 
 ## Jupyter Notebooks in GitHub Codespaces
