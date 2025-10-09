@@ -63,6 +63,10 @@ uv run script.py         # For Python scripts
     (_**See below for screenshots**_)
 
 
+## Länkar
+- GitHub Spec kit: https://github.com/github/spec-kit
+
+
 ## Jupyter Notebooks in GitHub Codespaces
 There is a bug in the latest Microsoft Jupyter extension that prevents Jupyter Notebooks from working properly in Codespaces. To work around this, **revert it back to version 2025.8.x**
 
