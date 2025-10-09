@@ -68,3 +68,6 @@ yarn.lock
 # OS
 Thumbs.db
 .DS_Store
+generated_images/banana_20251009_104425.png
+generated_images/banana_20251009_104622.png
+exercises/langgraph/db

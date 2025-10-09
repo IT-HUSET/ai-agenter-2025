@@ -3,20 +3,13 @@ from langchain_ollama import ChatOllama
 
 from langchain_core.embeddings import Embeddings
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_openai import AzureOpenAIEmbeddings
-
-#from langchain_openai import ChatOpenAI
-#from langchain_anthropic import ChatAnthropic
-#from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
+from langchain_openai import OpenAIEmbeddings
 
 def load_llm() -> BaseChatModel:
-    # Azure OpenAI
-    from langchain_openai import AzureChatOpenAI
-    api_version = "2024-10-01-preview"
-    llm = AzureChatOpenAI(deployment_name="gpt-4o-mini", temperature=0.0, openai_api_version=api_version)
-
     # OpenAI
-    #from langchain_openai import ChatOpenAI
+    from langchain_openai import ChatOpenAI
+    api_version = "2024-10-01-preview"
+    llm = ChatOpenAI(deployment_name="gpt-4o-mini", temperature=0.0, openai_api_version=api_version)
 
 
     # For using for local LLM served via OpenAI compatible API (for instance LM Studio, Ollama etc)
@@ -68,6 +61,6 @@ def load_llm() -> BaseChatModel:
 #     return embeddings
 
 def load_azure_open_ai_embeddings(openai_embeddings_model: str = "text-embedding-3-large", dimensions:int=None) -> Embeddings:
-    embeddings = AzureOpenAIEmbeddings(model=openai_embeddings_model, dimensions=dimensions)
+    embeddings = OpenAIEmbeddings(model=openai_embeddings_model, dimensions=dimensions)
     print(f"Using OpenAI model: {openai_embeddings_model}")
     return embeddings
