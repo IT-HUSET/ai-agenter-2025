@@ -14,6 +14,7 @@
 * **Steg 2**: Kopiera filer från ai-agenter-2025, förslagsvis: 
  - `.devcontainer/devcontainer.json`
  - `setup-devcontainer.sh`
+ - För en lista med redan på förhand godkända operationer (kolla gärna igenom först) - kopiera `.claude/settings.local-example.json` och byt namn till `.claude/settings.local.json`
 
 * **Steg 3**: Välj ditt flöde
 - Spec-kit eller mer “fritt” flöde - you decide
