@@ -25,7 +25,7 @@ Using guidelines and commands specified in _project guidelines_ (see CLAUDE.md /
 ### 3. Code, Architecture, UI and Security Review
 
 - Review code quality, security, maintenance, architecture, UI, UX and adherence to project standards and development guidelines as well as adherence to requirements
-- **Always** use all suitable **sub-agents** (in **parallel**) such as *@agent-code-review-specialist*, *@agent-architect-reviewer*, *@agent-ui-ux-reviewer*, and other agents as needed.
+- **Always** use all suitable **sub-agents** (in **parallel**) such as *@agent-code-review-specialist*, *@agent-solution-architect*, *@agent-ui-ux-designer*, and other agents as needed.
 
 ## 4. Generate Report
 
