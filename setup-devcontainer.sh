@@ -5,10 +5,10 @@ set -e
 npm install -g @anthropic-ai/claude-code
 
 # Install Gemini CLI globally
-npm install -g @google/gemini-cli
+#npm install -g @google/gemini-cli
 
 # Install OpenAI Codex CLI globally
-npm install -g @openai/codex
+#npm install -g @openai/codex
 
 # Setup Claude config directory
 sudo mkdir -p ~/.claude
