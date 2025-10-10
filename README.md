@@ -36,6 +36,7 @@
 
 
 ## Länkar
+- [Anthropic Prompt Generator - generera en prompt givet ett mål/task](https://platform.claude.com/dashboard)
 - [AGENTIC-CODING-TIPS.md](AGENTIC-CODING-TIPS.md)
 - [GitHub Spec kit](https://github.com/github/spec-kit)
 - [Claude Code docs](https://docs.claude.com/en/docs/claude-code/overview)
@@ -57,6 +58,11 @@
 * [Docs](https://python.langchain.com/docs)
 * [API docs](https://python.langchain.com/docs/reference/)
 
+### RAG på kodbasen (alltså RAG som används av kodningsagenten för att förstå kodbasen bättre) 
+* Claude's context - [zilliztech/claude-context: Code search MCP for Claude Code. Make entire codebase the context for any coding agent.](https://github.com/zilliztech/claude-context)
+* Archon - [GitHub - coleam00/Archon: Beta release of Archon OS - the knowledge and task management backbone for AI coding assistants.](https://github.com/coleam00/Archon)
+* Serena - [oraios/serena: A powerful coding agent toolkit providing semantic retrieval and editing capabilities \(MCP server & Agno integration\)](https://github.com/oraios/serena)
+* claude-code-project-index - [GitHub - ericbuess/claude-code-project-index: PROJECT_INDEX system for Claude Code - provides architectural awareness for AI coding](https://github.com/ericbuess/claude-code-project-index)
 
 
 ## Google Colab - For Jupyter Notebooks Exercises
