@@ -4,6 +4,21 @@
 
 # Välkommen till # AI-Agenter 2025!
 
+## Let's Build!
+
+* **Steg 1**: Börja med att formulera din grundidé 
+- Skapa ett nytt repository
+- Skapa en readme med en grov beskrivning att applikationen
+    - Tips: Be om hjälp med att förfina en initial idé Eller: använd kommandot  /process:1-idea-refinement
+
+* **Steg 2**: Kopiera filer från ai-agenter-2025, förslagsvis: 
+ - `.devcontainer/devcontainer.json`
+ - `setup-devcontainer.sh`
+
+* **Steg 3**: Välj ditt flöde
+- Spec-kit eller mer “fritt” flöde - you decide
+   
+
 ## Sätt upp din utvecklingsmiljö
 
 ### Hemligheter / Secrets
