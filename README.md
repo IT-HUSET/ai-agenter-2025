@@ -1,5 +1,3 @@
-
-
 ![Let's build an agent](images/ai-agenter-2025.png?raw=true)
 
 # Välkommen till # AI-Agenter 2025!
@@ -24,6 +22,12 @@
 * **Steg 3**: Välj ditt flöde
 - Spec-kit eller mer “fritt” flöde - you decide
    
+* **Innan implementation**: 
+- Samla länkar till relevant dokumentation (tex LangGraph mm)
+
+* **Under implementation**: 
+- Kom igång [AGENTIC-CODING-TIPS.md](AGENTIC-CODING-TIPS.md)
+
 
 ## Sätt upp din utvecklingsmiljö
 
@@ -36,6 +40,22 @@
 - [GitHub Spec kit](https://github.com/github/spec-kit)
 - [Claude Code docs](https://docs.claude.com/en/docs/claude-code/overview)
 - [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)
+
+### LangChain/LangGraph docs
+
+#### LangGraph
+* [Reference Docs](https://langchain-ai.github.io/langgraph/reference/)
+* [Guides](https://langchain-ai.github.io/langgraph/guides/)
+* [API Reference](https://langchain-ai.github.io/langgraph/cloud/reference/api/api_ref.html)
+* [Glossary / begrepp](https://langchain-ai.github.io/langgraph/concepts/low_level/)
+* Exempel / cookbook: https://github.com/langchain-ai/langgraph/tree/main/examples
+* Agentic RAG (LangGraph Blog): https://blog.langchain.dev/agentic-rag-with-langgraph/
+* Agentic RAG (LangGraph Tutorial): https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/
+
+#### LangChain
+* [Docs](https://python.langchain.com/docs)
+* [API docs](https://python.langchain.com/docs/reference/)
+
 
 
 ## Google Colab - For Jupyter Notebooks Exercises
