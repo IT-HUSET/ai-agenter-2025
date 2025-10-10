@@ -15,6 +15,11 @@
  - `.devcontainer/devcontainer.json`
  - `setup-devcontainer.sh`
  - För en lista med redan på förhand godkända operationer (kolla gärna igenom först) - kopiera `.claude/settings.local-example.json` och byt namn till `.claude/settings.local.json`
+ - Övriga potentiellt intressanta filer:
+    - Guidelines under `ai_docs/guidelines`
+    - En "mall" för CLAUDE.md: [ai_docs/templates/CLAUDE_md_temlplate.md](ai_docs/templates/CLAUDE_md_temlplate.md)
+    - En uppsättning sub-agenter: `.claude/agents`
+    - En uppsättning custom slash commands: `.claude/commands`
 
 * **Steg 3**: Välj ditt flöde
 - Spec-kit eller mer “fritt” flöde - you decide
