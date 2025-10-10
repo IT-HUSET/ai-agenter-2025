@@ -23,7 +23,7 @@
 - Spec-kit eller mer “fritt” flöde - you decide
    
 * **Innan implementation**: 
-- Samla länkar till relevant dokumentation (tex LangGraph mm)
+- Samla länkar till **relevant dokumentation** (tex LangGraph, se nedan mm)
 
 * **Under implementation**: 
 - Kom igång [AGENTIC-CODING-TIPS.md](AGENTIC-CODING-TIPS.md)
@@ -44,6 +44,7 @@
 ### LangChain/LangGraph docs
 
 #### LangGraph
+* [LLMs.txt - LLM/agent anpassad sammanställd dokumentation](https://langchain-ai.github.io/langgraph/llms-txt-overview/)
 * [Reference Docs](https://langchain-ai.github.io/langgraph/reference/)
 * [Guides](https://langchain-ai.github.io/langgraph/guides/)
 * [API Reference](https://langchain-ai.github.io/langgraph/cloud/reference/api/api_ref.html)
