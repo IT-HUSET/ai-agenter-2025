@@ -37,6 +37,7 @@
 
 ## Länkar
 - [Anthropic Prompt Generator - generera en prompt givet ett mål/task](https://platform.claude.com/dashboard)
+    - Välj "Generate a Prompt"
 - [AGENTIC-CODING-TIPS.md](AGENTIC-CODING-TIPS.md)
 - [GitHub Spec kit](https://github.com/github/spec-kit)
 - [Claude Code docs](https://docs.claude.com/en/docs/claude-code/overview)
